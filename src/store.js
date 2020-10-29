@@ -22,6 +22,7 @@ const reducer = (state = [], action) => {
     case ADD:
       return [{ text: action.text, id: Date.now() }, ...state];
     case DELETE:
+      console.log("delete action");
       return state.filter((toDo) => toDo.id !== action.id);
     default:
       return state;
