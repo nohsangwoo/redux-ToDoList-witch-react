@@ -1,4 +1,4 @@
-# redux-counter with react
+# Redux ToDoList with react
 
 ### 프로젝트 계획
 
