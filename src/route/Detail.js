@@ -41,7 +41,7 @@ function mapStateToProps(dispatch, ownProps) {
   return {
     onBtnClick: (e) => {
       //   e.preventDefault();
-      console.log(dispatch);
+
       dispatch(actionCreators.deleteToDo(id));
       history.push("/");
       return;
